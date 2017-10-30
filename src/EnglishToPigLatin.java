@@ -4,7 +4,7 @@
  * Lab 6 - from English to Pig Latin
  * October 27, 2017
  * 
- * This is a program that takes a word in from the suer and outputs it as Pig Latin.
+ * This is a program that takes a word in from the user and outputs it as Pig Latin.
  */
 
 import java.util.Scanner;
@@ -76,8 +76,8 @@ public class EnglishToPigLatin {
  	 */
 	public static String appendC(String input) {
 
-		String a = input.substring(0);
-		String b = input.substring(1, input.length() - 1);
+		String a = input.substring(0,1);
+		String b = input.substring(1, input.length());
 		input = b + a;
 
 		return input;
